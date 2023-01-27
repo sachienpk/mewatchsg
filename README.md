@@ -55,4 +55,5 @@ Create an issue if you experienced any problem that didn't stated in README.md
 2. [mewatch.sg](https://mewatch.sg)
 3. [AqFad2811](https://github.com/AqFad2811)
 4. [iptv-org](https://github.com/iptv-org)
+5. [samleong123](https://github.com/samleong123)
 
