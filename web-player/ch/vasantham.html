@@ -33,9 +33,9 @@ async function init() {
 
 player.configure({
   drm: {
-    clearKeys: {
-      // 'key-id-in-hex': 'key-in-hex',
-      '9970038ef6c548e39768f3a1ff6f5081': '3e19d54b7bcd8bb336776fe136d48f57'
+    servers: {
+      // 'org.w3.clearkey': 'license_key',
+      'org.w3.clearkey': 'https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9970038ef6c548e39768f3a1ff6f5081&key=3e19d54b7bcd8bb336776fe136d48f57'
     }
   }
 });
