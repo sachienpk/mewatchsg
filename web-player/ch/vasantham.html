@@ -22,7 +22,7 @@
     <script>
 
 const manifestUri =
-    'https://tglmp03.akamaized.net/out/v1/14eb6e921cae41298efaa4d9db0f2875/manifest.mpd';
+    'https://linearjitp-playback.astro.com.my/dash-wv/linear/2707/default_ott.mpd';
 
 async function init() {
   // When using the UI, the player is made automatically by the UI object.
@@ -34,8 +34,7 @@ async function init() {
 player.configure({
   drm: {
     servers: {
-      // 'org.w3.clearkey': 'license_key',
-      'org.w3.clearkey': 'https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=9970038ef6c548e39768f3a1ff6f5081&key=3e19d54b7bcd8bb336776fe136d48f57'
+      'org.w3.clearkey': 'https://ck-dash-mpd.astradamy.com/dash-ck/linear/2707'
     }
   }
 });
